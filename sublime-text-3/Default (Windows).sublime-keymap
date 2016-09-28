@@ -1,5 +1,5 @@
 [
   { "keys": ["ctrl+f12"], "command": "reindent"},
-  { "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
+  { "keys": ["ctrl+shift+o"], "command": "prompt_add_folder" },
   { "keys": ["ctrl+shift+w"], "command": "close_all" }
 ]
