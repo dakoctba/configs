@@ -3,6 +3,10 @@ echo "Instalação de uma nova máquina Linux"
 echo "------------------------------"
 
 #
+# Quando um pacote apresentar problemas, verificar a entrada no diretório /etc/apt/sources.list
+#
+
+#
 # Para descobrir erros em uma instalacao: sudo dpkg --configure -a
 #
 
