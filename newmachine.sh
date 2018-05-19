@@ -30,13 +30,22 @@ git config --global user.email "jackson.s.teixeira@gmail.com"
 git config --global color.ui true
 
 #
+# Java
+#
+sudo apt-get purge openjdk*
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install -y oracle-java8-installer
+sudo apt-get install -y oracle-java8-set-default
+
+#
 # Docker
 # 
 sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable"
 sudo apt-get update
-sudo apt-get install docker-ce
+sudo apt-get -y install docker-ce
 
 #
 # Adiciona o meu usuario no grupo do Docker
