@@ -1,6 +1,6 @@
 # Export
 
-    code --list-extensions
+    code --list-extensions > extensions.txt
 
     aaron-bond.better-comments
     alefragnani.Bookmarks
@@ -57,3 +57,5 @@
 # Import
 
     code --install-extension <extension>
+    
+    for i in extensions.txt; do chmod 755 "$i"; done
